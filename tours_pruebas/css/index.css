@@ -1,0 +1,88 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+/* CSS de index.php */
+*{
+	padding:0;
+	margin:0;
+	position:relative;
+	font-family: 'Francois One', sans-serif;
+}
+body, html{
+	height:100%;
+	width:100%;
+}
+table{
+	width:100%;
+	height:100%;
+	background-size:cover;
+}
+.app_name{
+	position:fixed;
+	top:5px;
+	left:10px;
+	color:#FFF;
+	z-index:100;
+}
+.vendor_name{
+	position:fixed;
+	bottom:5px;
+	right:10px;
+	z-index:100;
+}
+.logo_amer{
+	position:fixed;
+	z-index:100;
+	top:10px;
+	right:15px;
+	background-image:url(../img/americanet.png);
+	background-size:cover;
+	width:200px;
+	height:100px;
+}
+.titulo{
+	font-size:2.5em;
+	font-weight:bold;
+	background-color:#06C;
+	color:#FFF;
+	padding:0 10px;
+	margin-bottom:5px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+form{
+	display:inline-block;
+	border-radius: 6px;
+	background-color:#069;
+	box-shadow:0px 3px 3px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+}
+input, select, textarea{
+	font-size:1.3em;
+	padding:3px;
+	margin: 2px;
+	text-align:center;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.button_example{
+	border:1px solid #25729a; -webkit-border-radius: 4px; -moz-border-radius: 4px;border-radius: 4px;font-size:14px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+	background-color: #3093c7; background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+	background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+	background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+	background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+	background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+	background-image: linear-gradient(to bottom, #3093c7, #1c5a85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85);
+}
+
+.button_example:hover{
+	border:1px solid #1c5675;
+	background-color: #26759e; background-image: -webkit-gradient(linear, left top, left bottom, from(#26759e), to(#133d5b));
+	background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+	background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+	background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+	background-image: -o-linear-gradient(top, #26759e, #133d5b);
+	background-image: linear-gradient(to bottom, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
+}

@@ -1,0 +1,8 @@
+[25-Aug-2014 10:28:51 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/imap.so' - libc-client.so.1: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Aug-2014 10:28:51 America/Monterrey] PHP Notice:  Undefined offset: 0 in /home/entropyd/public_html/eventos/gumpy/scripts/func_form.php on line 174
+[25-Aug-2014 10:28:51 America/Monterrey] PHP Notice:  Undefined variable: clientes in /home/entropyd/public_html/eventos/gumpy/partes/f_clientes.php on line 174
+[25-Aug-2014 10:29:03 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/imap.so' - libc-client.so.1: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Aug-2014 10:37:51 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/imap.so' - libc-client.so.1: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Aug-2014 10:37:56 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/imap.so' - libc-client.so.1: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Aug-2014 10:38:02 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/imap.so' - libc-client.so.1: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Aug-2014 10:38:06 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/imap.so' - libc-client.so.1: cannot open shared object file: No such file or directory in Unknown on line 0

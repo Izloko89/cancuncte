@@ -1,0 +1,56 @@
+.boton_abrir_form:hover, .boton_abrir_form_dos:hover {
+	background-color:#9827d3;
+	width:150px;
+	display:inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#fff;
+	position:relative;
+	margin-top:40px;
+	padding-bottom:10px;
+	padding-top:10px;
+	background-image: linear-gradient(bottom, rgb(168,48,232) 100%, rgb(141,32,196) 0%);
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: inset 0px 1px 0px #ca73f8, 0px 5px 0px 0px #6a1099, 0px 10px 5px #999;
+}
+
+.boton_abrir_form:hover, .boton_abrir_form_dos:active {
+	top:3px;
+	background-image: linear-gradient(bottom, rgb(168,48,232) 0%, rgb(141,32,196) 100%);
+	box-shadow: inset 0px 4px 1px #7215a3, 0px 2px 0px 0px #6a1099, 0px 5px 3px #999;
+}
+
+.boton_abrir_form:hover, .boton_abrir_form_dos::before {
+	background-color:#fff;
+	background-image:url(../img/mas.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	border-left:solid 1px #CCC;
+	border-top:solid 1px #CCC;
+	border-right:solid 1px #CCC;
+	content:"";
+	width:148px;
+	height:40px;
+	position:absolute;
+	top:-30px;
+	left:0px;
+	margin-top:-11px;
+	z-index:-1;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.a_demo_five:active::before {
+	top: -33px;	
+	box-shadow: 0px 3px 0px #ccc;
+}
+
+header
+{
+	background: url("fondo.png");
+	margin: 0;
+	padding: 1em 0;
+	width:100%;
+}
